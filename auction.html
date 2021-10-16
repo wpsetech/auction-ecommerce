@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/afc5a395eb.js" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!---AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+    
+
+   
+    <script src="./main.js"></script>
+
+
+    <title>Auction Ecommerce</title>
+</head>
+<body>
+
+  <!-- header -->
+    <div class="container-fluid border-bottom">
+        <div class="row">
+            <div class="col-lg-1 col-md-4 col-sm-6">
+              <select style="border: none;border-right: 1px solid #000;" name="" id="">
+                <option value="">EN</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+              </select>
+                  
+            </div>
+            <div class="col-lg-1 col-md-4 col-sm-6">
+              <select style="border: none;border-right: 1px solid #000;" name="" id="">
+                <option value="">USD</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+              </select>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <p class="">Call us for free: +1 347 9376 118</p>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <p class="">Send us an EmailL: contact@example.com</p>
+            </div>
+            <div class="col-lg-1 col-md-4"></div>
+            <div class="col-lg-2 col-md-4">
+              <p class="px-4"><a href="#"><i class="fas fa-truck-moving text-warning"></i></a> Order Tracking</p> 
+          </div>
+          <div class="col-lg-1 col-md-4">
+              <p><a href="#"><i class="far fa-heart text-warning"></i></a> Wishlist</p>
+          </div>
+        </div>
+    </div>
+
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-lg-2">
+       <a href="./home.html"><img class="px-3" style="height: 70px;" src="./images/logo-ibid-automotive.png" alt=""></a> 
+       </div>
+       <div class="col-lg-1"></div>
+       <div class="col-lg-6">
+          
+        <div class="container-fluid py-4">
+          <div style="width: 100%; height: 50px; background-color: #FFF; border-radius: 30px; box-shadow: 1px 1px 5px -2px rgb(0, 0, 0); position: relative;" class="row">
+            <select style="border: none; border-radius: 30px;" name="" id="">
+              <option value="">CATEGORIES</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
+            <form style="position: absolute; left: 20%;" action="">
+              <input style="height: 50px; width: 80%; border-radius: 30px; border: none;" type="text" placeholder="Search products..." class="input special">
+              <span style="padding: 12px 15px; position: absolute; right: 20%;; border-radius: 30px;" class="bg-dark text-light"><i class="fas fa-search"></i></span>
+            </form>
+
+          </div>
+        </div>
+
+       </div>
+       <div class="col-lg-1"></div>
+       <div class="col-lg-2 py-3">
+        <h6 class="d-inline pt-5">Check Out <i class="fas fa-shopping-basket fa-lg text-warning"></i> </h6>
+        <p>0 items-$0.00</p>
+        
+       </div>
+     </div>
+   </div>
+
+   <!------>
+
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FF9B00;">
+    <div class="container-fluid">
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle navbar-brand text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bars"></i> CATEGORIES 
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light navbar-brand" href="./home.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light navbar-brand" href="./auction.html">Auctions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light navbar-brand" href="./productdetail.html">Product Detail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light navbar-brand" href="./about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light navbar-brand" href="./contact.html">Contact us</a>
+          </li>
+
+        </ul>
+      </div>
+      <a class="nav-link text-light navbar-brand " href="#">Sign In</a>
+    </div>
+  </nav>
+  <!---------------->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3">
+        <h3 class="mt-3">Filter by price</h3>
+        <div class="progress" style="height: 2px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        
+        <div slider id="slider-distance">
+          <div>
+            <div inverse-left style="width:70%;"></div>
+            <div inverse-right style="width:70%;"></div>
+            <div range style="left:0%;right:0%;"></div>
+            <span thumb style="left:0%;"></span>
+            <span thumb style="left:100%;"></span>
+            <div sign style="left:0%;">
+              <span id="value">0</span>
+            </div>
+            <div sign style="left:100%;">
+              <span id="value">100</span>
+            </div>
+          </div>
+          <input type="range" value="0" max="100" min="0" step="1" oninput="
+          this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+          let value = (this.value/parseInt(this.max))*100
+          var children = this.parentNode.childNodes[1].childNodes;
+          children[1].style.width=value+'%';
+          children[5].style.left=value+'%';
+          children[7].style.left=value+'%';children[11].style.left=value+'%';
+          children[11].childNodes[1].innerHTML=this.value;" />
+        
+          <input type="range" value="100" max="100" min="0" step="1" oninput="
+          this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+          let value = (this.value/parseInt(this.max))*100
+          var children = this.parentNode.childNodes[1].childNodes;
+          children[3].style.width=(100-value)+'%';
+          children[5].style.right=(100-value)+'%';
+          children[9].style.left=value+'%';children[13].style.left=value+'%';
+          children[13].childNodes[1].innerHTML=this.value;" />
+        </div>
+
+
+
+      </div>
+
+      <div class="col-lg-9">
+        <div class="row py-4 mt-4" style="box-shadow: -1px 1px 7px -2px rgba(0,0,0,0.75); border-radius: 5px;">
+          <div class="col-lg-2">
+            <a style="box-shadow: 1px 1px -2px -1px rgb(0, 0, 0);border:2px solid #FFBF07; border-radius:20px; padding:5px" href="#"><i class="fas fa-th-large fa-lg text-warning rounded-circle"></i></a>
+            <a style="box-shadow: 1px 1px -2px -1px rgb(0, 0, 0);border:2px solid #FFBF07; border-radius:20px; padding:5px" href="#"><i class="fas fa-filter text-warning fa-lg rounded-circle "></i></a>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="d-inline">Showing 1-9 out of 12 results
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5">
+
+            <select class="form-select w-50 rounded-pill" style="margin-left: 30%;" aria-label="Default sorting">
+              <option selected>Default sorting</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+      
+    </div>
+  </div>
+  
+  
+  <div class="container-fluid">
+    <div class="row mx-2 d-flex justify-content-around py-2 ">
+      <div class="col-lg-3 col-sm-12">
+       
+
+        <button type="button" style="background-color: #FF9B00;" class="btn rounded-pill text-light px-4 my-3">Filter</button>
+
+        <h6 class="text-muted">Price: $0 <br> --$15,000</h6>
+
+        <h3 class="mt-5">Color</h3>
+
+        <div class="progress my-2" style="height: 2px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+
+        <select class="form-select py-1 my-3" aria-label="Default select example">
+          <option selected>White</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <h3 class="mt-5">Condition</h3>
+
+        <div class="progress my-2" style="height: 2px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+
+        <select class="form-select py-1 my-3" aria-label="Default select example">
+          <option selected>New</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <h3 class="mt-5">Make</h3>
+
+        <div class="progress my-2" style="height: 2px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+
+        <select class="form-select py-1 my-3" aria-label="Default select example">
+          <option selected>Fiat</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <h3 class="mt-5">Model</h3>
+
+        <div class="progress my-2" style="height: 2px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+
+        <select class="form-select py-1 my-3" aria-label="Default select example">
+          <option selected>A6</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <h3 class="mt-5">Odometer</h3>
+
+        <div class="progress my-2" style="height: 2px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+
+        <select class="form-select py-1 my-3" aria-label="Default select example">
+          <option selected>10.000</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+
+        <h3 class="mt-5">New Auctions</h3>
+
+        <div class="progress my-2 mb-5" style="height: 2px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/car_img_1.jpg" class="img-fluid rounded-start py-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title text-warning">Auction Vintage Car</h6>
+                <p class="card-text">Winning Bid <strong>$10,1000</strong></p>
+                <p class="card-text"><small class="text-muted">Auction Finished</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/car_img_1.jpg" class="img-fluid rounded-start py-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title text-warning">Auction Vintage Car</h6>
+                <p class="card-text">Winning Bid <strong>$10,1000</strong></p>
+                <p class="card-text"><small class="text-muted">Auction Finished</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/car_img_1.jpg" class="img-fluid rounded-start py-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title text-warning">Auction Vintage Car</h6>
+                <p class="card-text">Winning Bid <strong>$10,1000</strong></p>
+                <p class="card-text"><small class="text-muted">Auction Finished</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/car_img_1.jpg" class="img-fluid rounded-start py-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title text-warning">Auction Vintage Car</h6>
+                <p class="card-text">Winning Bid <strong>$10,1000</strong></p>
+                <p class="card-text"><small class="text-muted">Auction Finished</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/car_img_1.jpg" class="img-fluid rounded-start py-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title text-warning">Auction Vintage Car</h6>
+                <p class="card-text">Winning Bid <strong>$10,1000</strong></p>
+                <p class="card-text"><small class="text-muted">Auction Finished</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+
+
+      </div>
+
+      <div class="col-lg-3 col-md-6 py-3">
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 py-3">
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 py-3">
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+        <div class="card my-3">
+            <img style="height: 300px;" src="./images/car_img_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2 text-warning">Orange Fait 500 </h5>
+              <p class="card-text text-center">Winning Bid <strong>$10,1000</strong></p>
+            </div>
+          </div>
+      </div>
+
+
+      
+    </div>
+  </div>
+
+  <!---------->
+
+  <!---call to action-->
+   
+  <div class="container-fluid py-4" style="background-color: #FF9B00;">
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 class="text-light px-3">Browse through our products library!</h4>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+
+       <div style="width: 100%; height: 50px; background-color: #FFF; border-radius: 25px; box-shadow: 1px 1px 5px -2px rgb(0, 0, 0); position: relative;" class="row">
+         <form action="">
+           <input style="height: 50px; width: 100%; border-radius: 30px; border: none;" type="text" placeholder="Search products..." class="input special">
+           <span style="padding: 12px 15px; position: absolute; right: 0.1%;top: 2%; border-radius: 30px;" class="bg-dark text-light"><i class="fas fa-search"></i></span>
+         </form>
+
+       </div>
+     </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+   <!----footer-->
+  <!--------->
+  <div class="container-fluid my-5">
+    <div class="row">
+      <div class="col-lg-3">
+       <img class="px-3" style="height: 50px;" src="./images/logo-ibid-automotive.png" alt="">
+       <h6 class="d-inline px-3">contact@example.com</h6>
+       <a style="text-decoration: none; color: #000;" href="#"><h6 class="px-3">+1 347 9376 118</h6></a>
+       <div class="text-start px-3">
+         <a class="text-warning bg-light rounded-circle px-2" href="#"><i class="fab fa-facebook"></i></a>
+         <a class="text-warning rounded-circle bg-light px-2" href="#"><i class="fab fa-twitter"></i></a>
+         <a class="text-warning rounded-circle bg-light px-2" href="#"><i class="fab fa-instagram"></i></a>
+         <a class="text-warning rounded-circle bg-light px-2" href="#"><i class="fab fa-linkedin"></i></a>
+       </div>
+      </div>
+      <div class="col-lg-3">
+       <h3>Useful links</h3>
+       <ul>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>  Mobile Phones</p>
+               </a>
+           </li>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>   laptops</p>
+               </a>
+           </li>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>   Head Phones</p>
+               </a>
+           </li>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>   Camera</p>
+               </a>
+           </li>
+       </ul>
+      </div>
+      <div class="col-lg-3">
+
+
+       <h3>our Policy</h3>
+       <ul>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>  Homepage</p>
+               </a>
+           </li>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>   Auction</p>
+               </a>
+           </li>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>   Services</p>
+               </a>
+           </li>
+           <li style=" list-style-type: none;">
+               <a style="text-decoration: none; color: #000;" href="#">
+                   <p>
+                     <i class="fas fa-angle-double-right"></i>   About Us</p>
+               </a>
+           </li>
+       </ul>
+
+      </div>
+      <div class="col-lg-3">
+        <h3>
+          Subscribe to our <br> Newsletters
+        </h3>
+
+        <div style="width: 100%; height: 50px; background-color: #FFF; border-radius: 25px; box-shadow: 1px 1px 5px -2px rgb(0, 0, 0); position: relative;" class="row">
+         <form action="">
+           <input style="height: 50px; width: 100%; border-radius: 30px; border: none;" type="text" placeholder="Enter your Email" class="input special">
+           <span style="padding: 12px 15px; position: absolute; right: 0.1%;top: 2%;; border-radius: 30px;" class="bg-dark text-light">Submit</span>
+         </form>
+
+      </div>
+    </div>
+  </div>
+    
+  </body>
+  </html>
